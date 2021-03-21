@@ -7,24 +7,25 @@
 
 import Foundation
 
-class JogoDaVelha {
+public class JogoDaVelha {
     
     let vazio = ""
-    private(set) var acabou = false
+    private var _acabou = false
+    public var acabou: Bool { get { _acabou } }
     
     private(set) var estaVazio = true
     
-    var linhas: Int {
+    public var linhas: Int {
         tabuleiro.count
     }
     
-    var colunas: Int {
+    public var colunas: Int {
         tabuleiro[0].count
     }
     
     private var tabuleiro: [[String]]
     
-    init() {
+    public init() {
         tabuleiro = [
             [vazio,vazio,vazio],
             [vazio,vazio,vazio],
@@ -32,7 +33,7 @@ class JogoDaVelha {
         ]
     }
     
-    func colocar(_ valor: String, linha: Int, coluna: Int) {
+    public func colocar(_ valor: String, linha: Int, coluna: Int) {
         if podeColocarValorEm(linha: linha, coluna: coluna) {
             tabuleiro[linha][coluna] = valor
             
@@ -40,7 +41,7 @@ class JogoDaVelha {
         }
     }
     
-    func ler(linha: Int, coluna: Int) -> String {
+    public func ler(linha: Int, coluna: Int) -> String {
         return tabuleiro[linha][coluna]
     }
     
@@ -50,7 +51,7 @@ class JogoDaVelha {
     
     private func verificarSeJogoTerminou() {
         
-        acabou = verificarTrincaEmLinhas() 
+        _acabou = verificarTrincaEmLinhas() 
             || verificarTrincaEmColunas() 
             || verificarTrincaEmDiagonais() 
             || verificarEmpate()

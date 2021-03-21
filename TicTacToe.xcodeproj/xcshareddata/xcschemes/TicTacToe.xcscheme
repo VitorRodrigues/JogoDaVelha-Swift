@@ -14,6 +14,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A936377426028C32006E00EF"
+               BuildableName = "TicTaeToeLogic.framework"
+               BlueprintName = "TicTaeToeLogic"
+               ReferencedContainer = "container:TicTaeToeLogic/TicTaeToeLogic.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "A942E99A25F2970E00DCF9DA"
                BuildableName = "TicTacToe.app"
                BlueprintName = "TicTacToe"

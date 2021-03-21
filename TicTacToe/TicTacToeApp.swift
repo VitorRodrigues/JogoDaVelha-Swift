@@ -11,7 +11,7 @@ import SwiftUI
 struct TicTacToeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TicTacToeView(ticTacToe: TicTacToe(player1: "A", player2: "B"))
         }
     }
 }
