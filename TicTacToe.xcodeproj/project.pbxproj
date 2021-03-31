@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A91F62E4260A91B10005677D /* JogoDaVelhaObservavel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91F62E3260A91B10005677D /* JogoDaVelhaObservavel.swift */; };
+		A91F62E9260A963F0005677D /* VencedorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91F62E8260A963F0005677D /* VencedorView.swift */; };
 		A942E99F25F2970E00DCF9DA /* TicTacToeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A942E99E25F2970E00DCF9DA /* TicTacToeApp.swift */; };
 		A942E9A125F2970E00DCF9DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A942E9A025F2970E00DCF9DA /* ContentView.swift */; };
 		A942E9A325F2971100DCF9DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A942E9A225F2971100DCF9DA /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A91F62E3260A91B10005677D /* JogoDaVelhaObservavel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoDaVelhaObservavel.swift; sourceTree = "<group>"; };
+		A91F62E8260A963F0005677D /* VencedorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VencedorView.swift; sourceTree = "<group>"; };
 		A942E99B25F2970E00DCF9DA /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A942E99E25F2970E00DCF9DA /* TicTacToeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeApp.swift; sourceTree = "<group>"; };
 		A942E9A025F2970E00DCF9DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				A942E9A725F2971100DCF9DA /* Info.plist */,
 				A942E9A425F2971100DCF9DA /* Preview Content */,
 				A942E9D425F2AA3000DCF9DA /* JogoDaVelha.swift */,
+				A91F62E3260A91B10005677D /* JogoDaVelhaObservavel.swift */,
+				A91F62E8260A963F0005677D /* VencedorView.swift */,
 			);
 			path = TicTacToe;
 			sourceTree = "<group>";
@@ -263,8 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A942E9A125F2970E00DCF9DA /* ContentView.swift in Sources */,
+				A91F62E9260A963F0005677D /* VencedorView.swift in Sources */,
 				A942E99F25F2970E00DCF9DA /* TicTacToeApp.swift in Sources */,
 				A942E9D525F2AA3000DCF9DA /* JogoDaVelha.swift in Sources */,
+				A91F62E4260A91B10005677D /* JogoDaVelhaObservavel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
